@@ -30,6 +30,12 @@ Student.prototype.getGreeting = function() {
 module.exports = Student;
 ```
 
+### Install Mocha and Chai
+
+```
+$ npm install mocha --save-dev
+$ npm install chai --save-dev
+```
 
 ## Challenge 
 
