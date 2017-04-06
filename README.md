@@ -24,7 +24,7 @@ Student.prototype.getFullName = function() {
 }
 
 Student.prototype.getGreeting = function() {
-  return 'Hello, my name is ' + this.firstName;
+  return 'Good day mate, my name is ' + this.firstName;
 }
 
 module.exports = Student;
