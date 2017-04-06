@@ -30,11 +30,44 @@ Student.prototype.getGreeting = function() {
 module.exports = Student;
 ```
 
+### Create package.json 
+
+```
+$ npm init
+```
+
+Follow the prompts and just use the defaults if you prefer
+
 ### Install Mocha and Chai
 
 ```
 $ npm install mocha --save-dev
 $ npm install chai --save-dev
+```
+
+### Create the student file we want to test
+
+```
+$ touch student.js
+```
+
+Paste the code above into this file
+
+### Create the test directory and test file
+
+```
+$ mkdir test && cd test
+$ touch student_tests.js
+```
+
+Your directory structure should look something like this now:
+
+```
+├── node_modules/
+├── package.json
+├── student.js
+└── test/
+    └── student_tests.js
 ```
 
 ## Challenge 
