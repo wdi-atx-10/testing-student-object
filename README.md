@@ -2,7 +2,7 @@
 
 Using what we learned today with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/), let's develop some tests for `student` objects. 
 
-Here's the code we just wrote and want to test: 
+Here's the code we've just written and want to test: 
 
 ```js
 // student.js
