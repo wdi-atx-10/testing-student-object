@@ -79,3 +79,8 @@ Your directory structure should look something like this now:
 
 - Modify the `student` object so that if there's no last name passed, it defaults to 'Doe'. Write a new test to ensure that it works as expected.
 - Modify the `student` object so that an age can also be passed in. Write tests that ensure it's a valid number and that the value is within a reasonably acceptable range.
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+
