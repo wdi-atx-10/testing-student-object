@@ -33,5 +33,5 @@ module.exports = Student;
 
 ## Challenge 
 
-- Modify the `student` object so that if there's no last name passed, it defaults to 'Doe'. Write a new test to ensure that it works as expected 
-- Modify the `student` object so that an age can also be passed in. Write tests that ensure it's a valid number and that the value is within a reasonable acceptable range
+- Modify the `student` object so that if there's no last name passed, it defaults to 'Doe'. Write a new test to ensure that it works as expected.
+- Modify the `student` object so that an age can also be passed in. Write tests that ensure it's a valid number and that the value is within a reasonably acceptable range.
