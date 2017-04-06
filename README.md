@@ -70,6 +70,11 @@ Your directory structure should look something like this now:
     └── student_tests.js
 ```
 
+### Write tests for every method of `Student`
+
+- Use `describe` to explain your tests
+- Use either `assert`, `expect`, or `should` for your tests. The choice is yours.
+
 ## Challenge 
 
 - Modify the `student` object so that if there's no last name passed, it defaults to 'Doe'. Write a new test to ensure that it works as expected.
