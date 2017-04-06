@@ -45,7 +45,7 @@ $ npm install mocha --save-dev
 $ npm install chai --save-dev
 ```
 
-### Create the student file we want to test
+### Create the student library file
 
 ```
 $ touch student.js
