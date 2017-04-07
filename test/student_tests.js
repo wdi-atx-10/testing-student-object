@@ -21,6 +21,15 @@ beforeEach(function(){
     expect(student.lastName).to.equal('Doe');
      });
 
+   it('WE DONT LIKE OLD PEOPLE', function(){
+    var student = new Student('Ronak','',20);
+    expect(student.age).to.be.above(18);
+    expect(student.age).to.be.below(50);
+
+    // expect(student.age).isabove(18);
+
+     });
+
 
 
 
