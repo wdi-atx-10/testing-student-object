@@ -1,0 +1,26 @@
+{
+  "name": "testing-student-object",
+  "version": "1.0.0",
+  "description": "HW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaninator/testing-student-object.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaninator/testing-student-object/issues"
+  },
+  "homepage": "https://github.com/chaninator/testing-student-object#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
