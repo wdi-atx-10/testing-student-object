@@ -6,56 +6,42 @@ var student;
 
 describe('Student Test Suite', function() {
   before(function() {
-    student = new Student('Ima', 'Dev');
+    student = new Student(6, 'I. C.', 'Weiner');
   });
 
-  describe('Methods related to obtaining student first name', function() {
-    it('Should return the first name', function() {
-      var firstName  = student.getFirstName();
+  it('Should return the first name', function() {
+    var firstName = student.getFirstName();
 
-      expect(firstName).to.equal('Ima');
-    });
-  });
-});
-
-describe('Methods related to getting last name', function() {
-  before(function() {
-    student = new Student('Ida', 'Ho');
+    expect(firstName).to.equal('I. C.');
   });
 
-  describe('obtaining student last name', function() {
-    it('Should return the last name', function() {
-      var lastName = student.getLastName();
+  it('Should return the last name', function() {
+    var lastName = student.getLastName();
 
-      expect(lastName).to.equal('Ho');
-    });
-  });
-});
-
-describe('Methods related to combining name', function() {
-  before(function() {
-    student = new Student('Harry', 'Bach');
+    expect(lastName).to.equal('Weiner');
   });
 
-  describe('obtaining student full name', function() {
-    it('Should return the full name', function() {
-      var fullName = student.getFullName();
+  it('Should return the full name', function() {
+    var fullName = student.getFullName();
 
-      expect(fullName).to.equal('Harry Bach');
-    });
-  });
-});
-
-describe('Methods related to greeting', function() {
-  before(function() {
-    student = new Student('Ida', 'Ho');
+    expect(fullName).to.equal('I. C. Weiner');
   });
 
-  describe('obtaining student last name', function() {
-    it('Should return the last name', function() {
-      var lastName = student.getLastName();
+  it('Should return a friendly greeting', function() {
+    var greeting = student.getGreeting();
 
-      expect(lastName).to.equal('Ho');
-    });
+    expect(greeting).to.equal('Good day mate, my name is I. C. Weiner');
+  });
+
+  it('Should default last name to Doe', function () {
+    var deer = new Student(22, 'Jane');
+
+    expect(deer.lastName()).to.equal('Doe');
+  });
+
+  it('Should have an age', function() {
+    var age = student.getAge();
+
+    expect(typeof age).to.be(Number);
   });
 });

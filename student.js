@@ -1,5 +1,6 @@
 // student.js
-function Student(firstName, lastName) {
+function Student(age, firstName, lastName = 'Doe') {
+  this.age = age;
   this.firstName = firstName;
   this.lastName = lastName;
 }
@@ -16,8 +17,12 @@ Student.prototype.getFullName = function() {
   return this.firstName + ' ' + this.lastName;
 }
 
+Student.prototype.getAge = function() {
+  return this.age;
+}
+
 Student.prototype.getGreeting = function() {
-  return 'Good day mate, my name is ' + this.firstName;
+  return 'Good day mate, my name is ' + this.fullName;
 }
 
 module.exports = Student;
