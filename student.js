@@ -1,4 +1,4 @@
-// student.js
+// student.js copy paste from HW readme
 function Student(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
