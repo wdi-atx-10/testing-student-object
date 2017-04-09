@@ -1,0 +1,23 @@
+{
+  "name": "testing-student-object",
+  "version": "1.0.0",
+  "description": "testing homework",
+  "main": "student.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonFranchi/testing-student-object.git"
+  },
+  "author": "Jon Franchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonFranchi/testing-student-object/issues"
+  },
+  "homepage": "https://github.com/JonFranchi/testing-student-object#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
