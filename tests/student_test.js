@@ -28,7 +28,7 @@ describe('The Student Object', function() {
       expect(student.getFullName()).to.equal('Jorge Cano');
      });
    });
-//greating
+//greeting
   describe('getGreeting', function() {
     it('should return the Greeting', function() {
       expect(student.getGreeting()).to.equal('Good day mate, my name is Jorge');
