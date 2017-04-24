@@ -1,0 +1,29 @@
+{
+  "name": "testing-student-object",
+  "version": "1.0.0",
+  "description": "test for student object hw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-Cano/testing-student-object.git"
+  },
+  "keywords": [
+    "tests",
+    "javascript",
+    "test",
+    "building"
+  ],
+  "author": "Jorge Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-Cano/testing-student-object/issues"
+  },
+  "homepage": "https://github.com/Jorge-Cano/testing-student-object#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
