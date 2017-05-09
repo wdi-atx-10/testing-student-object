@@ -1,8 +1,8 @@
 # Testing a Student Object
 
-Using what we learned today with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/), let's develop some tests for `student` objects. 
+Using what we learned today with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/), let's develop some tests for `student` objects.
 
-Here's the code we've just written and want to test: 
+Here's the code we've just written and want to test:
 
 ```js
 // student.js
@@ -30,7 +30,7 @@ Student.prototype.getGreeting = function() {
 module.exports = Student;
 ```
 
-### Create package.json 
+### Create package.json
 
 ```
 $ npm init
@@ -60,6 +60,9 @@ $ mkdir test && cd test
 $ touch student_tests.js
 ```
 
+to test
+$ mocha test
+
 Your directory structure should look something like this now:
 
 ```
@@ -75,7 +78,7 @@ Your directory structure should look something like this now:
 - Use `describe` to explain your tests
 - Use either `assert`, `expect`, or `should` for your tests. The choice is yours.
 
-## Challenge 
+## Challenge
 
 - Modify the `student` object so that if there's no last name passed, it defaults to 'Doe'. Write a new test to ensure that it works as expected.
 - Modify the `student` object so that an age can also be passed in. Write tests that ensure it's a valid number and that the value is within a reasonably acceptable range.
@@ -83,4 +86,3 @@ Your directory structure should look something like this now:
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
 All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
-
